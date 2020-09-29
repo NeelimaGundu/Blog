@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>form</title>
+</head>
+
+<body>
+
+    <form onsubmit="myfunction()">
+        <label for="fname">First Name:</label><br>
+        <input type="text" id="fname" name="name" required><br>
+        <label for="lname">Last Name:</label><br>
+        <input type="text" id="lname" name="name" required><br>
+        <label for="gmail">Email Address: </label><br>
+        <input type="email" id="gmail" name="name" required><br>
+        <label for="dob">Age :</label><br>
+        <input type="number" id="dob" name="name"><br>
+        <label>Sex :</label><br>
+        <input type="radio" id="m" name="name" value="male">
+        <label for="m">Male </label><br>
+        <input type="radio" id="f" name="name" value="female">
+        <label for="f">Female </label><br>
+        <input type="radio" id="o" name="name" value="other">
+        <label for="o">Other </label><br>
+        <label for="address">Address :</label><br>
+        <input type="text" id="address" name="name"><br>
+        <label for="pw">Password:</label><br>
+        <input type="password" id="pw" name="name" required><br>
+        <label for="rpw">Confirm Password:</label><br>
+        <input type="password" id="rpw" name="name" required><br>
+        <input type="checkbox" required id="q"><label for="q">By checking this box, you agree to our terms and conditions.</label><br>
+        <input type="submit">
+
+    </form>
+    <script>
+        function myfunction() {
+            alert("Yay!You're signed up!!");
+        }
+    </script>
+</body></html>
